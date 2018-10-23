@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anil.mobilebanking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mb_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".Add_Account" />
+        <activity android:name=".Login_Home" />
+        <activity android:name=".Remove_Account" />
+        <activity android:name=".Login_Account" />
+        <activity
+            android:name=".Account"
+            android:label="@string/title_activity_account"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Edit_Details" />
+        <activity android:name=".Change_Password" />
+        <activity android:name=".Transfer_Amount" />
+        <activity android:name=".Check_Balance" />
+        <activity android:name=".Receive_Amount" />
+        <activity android:name=".Rating" />
+        <activity android:name=".Help" />
+        <activity android:name=".Help_Home" />
+        <activity android:name=".Help_Account" />
+        <activity android:name=".forgetpassword" />
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>

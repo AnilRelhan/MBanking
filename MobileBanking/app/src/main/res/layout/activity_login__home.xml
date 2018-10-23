@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="#ffffff"
+            app:title="Mobile Banking"
+            android:id="@+id/t"
+            app:theme="@style/theme"
+            app:popupTheme="@style/popuptheme">
+
+        </android.support.v7.widget.Toolbar>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/login_account"
+            android:text="Login to already Added Bank Account"
+            android:background="@drawable/buttonshape"
+            android:drawableTop="@mipmap/lg"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:id="@+id/add_account"
+                android:text="Add Bank Account"
+                android:background="@drawable/buttonshape"
+                android:drawableTop="@mipmap/aac"
+                android:layout_weight="1"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:id="@+id/remove_account"
+                android:text="Remove Account"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@mipmap/rac"
+                android:background="@drawable/buttonshape"
+                android:layout_weight="1"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

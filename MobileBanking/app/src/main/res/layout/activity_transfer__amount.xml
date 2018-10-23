@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transfer_Amount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Money"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="#7a0434"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:background="#eeeeee"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="User ID"
+                android:textColor="#7a0434"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/uid"
+                android:textColor="#db075e"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Account No."
+                android:textColor="#7a0434"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/acno"
+                android:textColor="#db075e"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#eeeeee"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#7a0434"
+               android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ps"
+                android:layout_weight="1"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:textColor="#db075e"
+                android:backgroundTint="#7a0434"
+                android:textColorHint="#7a0434"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/sbmt"
+            android:text="Verify User by Password"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/np"
+            android:visibility="gone"
+            android:padding="20dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="65dp"
+                android:text="Transfered Account No."
+                android:textColor="#7a0434"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tac"
+                android:layout_weight="1"
+                android:hint="Account No."
+                android:textColor="#db075e"
+                android:backgroundTint="#7a0434"
+                android:textColorHint="#7a0434"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/np1"
+            android:visibility="gone"
+            android:padding="20dp"
+            android:background="#eeeeee">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textColor="#7a0434"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bala"
+                android:layout_weight="1"
+                android:hint="Transfer Amount"
+                android:textColor="#db075e"
+                android:backgroundTint="#7a0434"
+                android:textColorHint="#7a0434"
+                android:inputType="number"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Transfer"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/trans"/>
+
+
+        </LinearLayout>
+
+
+</ScrollView>

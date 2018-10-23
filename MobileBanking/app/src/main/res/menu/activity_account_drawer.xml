@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_bal"
+            android:title="Balance Enquiry"
+            android:icon="@drawable/cbal"/>
+
+        <item
+            android:id="@+id/nav_transfer"
+            android:title="Send Money"
+            android:icon="@drawable/sr"/>
+
+        <item
+            android:id="@+id/nav_receive"
+            android:title="Receive Money"
+            android:icon="@drawable/sr"/>
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+
+            <item
+                android:id="@+id/nav_edit"
+                android:title="Edit Personal Details"
+                android:icon="@drawable/ed"/>
+
+            <item
+                android:id="@+id/nav_chgpassword"
+                android:title="Change Password"
+                android:icon="@drawable/cp"/>
+        </menu>
+    </item>
+
+</menu>

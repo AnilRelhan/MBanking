@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="#ffffff"
+            app:title="Mobile Banking"
+            android:id="@+id/t"
+            app:theme="@style/theme"
+            app:popupTheme="@style/popuptheme">
+
+        </android.support.v7.widget.Toolbar>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Username"
+            android:backgroundTint="#7a0434"
+            android:textColorHint="#7a0434"
+            android:textColor="#7a0434"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Password"
+            android:backgroundTint="#7a0434"
+            android:textColorHint="#7a0434"
+            android:textColor="#7a0434"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="12dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape"
+            android:text="Log in"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape"
+            android:text="Sign up"/>
+    </LinearLayout>
+
+</ScrollView>

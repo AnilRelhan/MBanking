@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Account">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/signup"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uid"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="User ID"
+        android:backgroundTint="#7a0434"
+        android:textColorHint="#7a0434"
+        android:textColor="#7a0434"
+        android:drawableLeft="@drawable/userid"
+        android:drawablePadding="12dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pswd"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password"
+        android:backgroundTint="#7a0434"
+        android:textColorHint="#7a0434"
+        android:textColor="#7a0434"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lgin"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonshape"
+        android:text="Log in"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:fontFamily="@string/nav_header_desc"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            android:id="@+id/forget"
+            android:textColor="#000000"
+            android:layout_gravity="right"
+            android:textStyle="italic"
+            android:text="Forget Password"/>
+
+    </LinearLayout>
+
+</ScrollView>

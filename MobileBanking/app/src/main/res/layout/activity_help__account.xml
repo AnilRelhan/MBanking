@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#db075e"
+    tools:context=".Help_Account">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What &amp; How...?? "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Balance :- Just tap the Balance Enquiry tab in Navigation drawer to check your balance. "
+            android:textSize="20dp"
+            android:padding="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Money : Transfer money to any account by just tapping the Send Money tab in Navigation bar and filling the required details. "
+            android:textSize="20dp"
+            android:padding="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receive Money :- Receive Money from any Account by just tapping the Receive Money tab in Navigation bar and filling the required details. "
+            android:textSize="20dp"
+            android:padding="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Personal Details  :- Edit your personal details  by just tapping the Edit Personal Details tab in Navigation bar."
+            android:textSize="20dp"
+            android:padding="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password  :- Change your password details  by just tapping the Change Password tab in Navigation bar."
+            android:textSize="20dp"
+            android:padding="25dp"
+            android:paddingBottom="50dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#db075e"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
